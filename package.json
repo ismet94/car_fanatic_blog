@@ -1,0 +1,29 @@
+{
+  "name": "car_fanatic_blog",
+  "version": "1.0.0",
+  "description": "Car Fanatic Blog",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "nodemon": "^1.18.10",
+    "popper.js": "^1.14.7",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismet94/car_fanatic_blog.git"
+  },
+  "keywords": [
+    "cars"
+  ],
+  "author": "Ismet Samsodien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismet94/car_fanatic_blog/issues"
+  },
+  "homepage": "https://github.com/ismet94/car_fanatic_blog#readme"
+}
