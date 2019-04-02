@@ -1,32 +1,60 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body {
-  padding: 50px;
+  padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
+  /* background-image: linear-gradient(rgb(211, 211, 211), rgb(196, 196, 196), rgb(255, 255, 236)); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(17, 17, 17, 0.384)), url(../images/main-background2.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
 }
 
 a {
   color: #00B7FF;
 }
-p {
-  color: rgb(0, 0, 0);
-  font-family: fantasy;
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* .main { */
+  .main-section {
+   
+    padding-top: 10%;
+  }
+  .main-heading {
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.425);
+      text-align: center;
+      font-size: 70px;
+      width: 35rem;
+      mix-blend-mode: screen;
+          /* This ensures that no letters is displayed until the animation is completed */
+    /* This ensures that no letters is displayed until the animation is completed */
+    overflow: hidden; 
+    border-right: .12em solid rgb(255, 0, 0); 
+    white-space: nowrap; 
+    /* Gives that scrolling effect as the typing happens */
+    margin: auto; 
+    letter-spacing: 0.10em;
+    animation: 
+      typing 3.0s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
   
-}
-
-.myhero {
-  height: 100vh;
-}
-
-#header {
-  background-color: #f1f1f1; /* Grey background */
-  padding: 50px 10px; /* Some padding */
-  color: black;
-  text-align: center; /* Centered text */
-  font-size: 90px; /* Big font size */
-  font-weight: bold;
-  position: fixed; /* Fixed position - sit on top of the page */
-  top: 0;
-  width: 100%; /* Full width */
-  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
-}
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 0, 0); }
+    }

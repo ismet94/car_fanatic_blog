@@ -7,5 +7,3 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
-
-window.onscroll = function() {scrollFunction()};
