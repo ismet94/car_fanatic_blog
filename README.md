@@ -110,6 +110,7 @@ Tools:
 ### Changelog
 
 2019-03-07:
+- Created structure for index.ejs
 
 ## Contributors
 
