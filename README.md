@@ -1,7 +1,7 @@
 # car_fanatic_blog
 Car Enthusiast Blog
 
-The Future... 
+Hyped by the engine that roars, energized by the wheels that spin, moved by the speed of the force. An all time blog website to surely get you off your seat and into the garage. 
 
 ## Setting up my workspace
 
@@ -109,8 +109,25 @@ Tools:
 
 ### Changelog
 
-2019-03-07:
-- Created structure for index.ejs
+2019-04-01:
+- Changed port to 8080 to run app
+- Created hero section for index.ejs
+- Used CSS for the mean time
+
+2019-04-02:
+- Added bootstrap Navbar
+- Selected main image
+- Created first blog and added colour
+- Made grid layout for blog 1
+- Added delete.js with code
+
+2019-04-03:
+- Added create.js with code
+- Completed structure for index.ejs
+- Added footer and copyright
+- Incorporated parallax layout
+
+2019-04-04:
 
 ## Contributors
 
