@@ -9,8 +9,9 @@ body {
   /* background-image: linear-gradient(rgb(211, 211, 211), rgb(196, 196, 196), rgb(255, 255, 236)); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(17, 17, 17, 0.384)), url(../images/main-background2.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
 }
 
@@ -18,43 +19,125 @@ a {
   color: #00B7FF;
 }
 
+
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Lobster', cursive;
+}
+
+.hero {
+  height: 100vh;
 }
 
 /* .main { */
   .main-section {
-   
+ 
     padding-top: 10%;
   }
   .main-heading {
     color: antiquewhite;
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0);
       text-align: center;
       font-size: 70px;
-      width: 35rem;
-      mix-blend-mode: screen;
-          /* This ensures that no letters is displayed until the animation is completed */
-    /* This ensures that no letters is displayed until the animation is completed */
-    overflow: hidden; 
-    border-right: .12em solid rgb(255, 0, 0); 
-    white-space: nowrap; 
-    /* Gives that scrolling effect as the typing happens */
-    margin: auto; 
-    letter-spacing: 0.10em;
-    animation: 
-      typing 3.0s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 50% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(255, 0, 0); }
+      width: 38rem;
+      height: 6rem;
+      margin: auto;
+
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
     }
+    
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4d4d, 0 0 80px #ff4d4d;
+    }
+  }
+
+.main-sub-heading {
+  font-family: 'Lobster', cursive;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.425);
+    text-align: center;
+    font-size: 20px;
+    width: 55rem;
+    mix-blend-mode: screen;
+    margin: auto; 
+    /* an animation added to the heading */
+    animation: animate ease-out 2s;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4d4d, 0 0 80px #ff4d4d;
+  }
+}
+
+
+.content {
+  background-color: rgb(249, 250, 236);
+  height: 100vh;
+  width: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(../images/back1.jpg);
+}
+
+.container {
+      display: grid;
+      width: 70%;
+      line-height: 20px;
+      padding-top: 5%;
+      padding-left: 7%;
+      margin: auto;
+  
+      /* grid columns and rows size */
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto;
+      grid-gap: 30px;
+  
+      grid-template-areas: 
+              "heading1 heading1 ."
+              "img1 blog1 blog1"
+           
+     
+}
+
+.blog-heading1 {
+  text-align: center;
+  grid-area: heading1;
+}
+/* 
+.sidebar {
+  grid-area: sidebar;
+  border-left: 2px solid rgb(66, 66, 66);
+  padding: 17px;
+  height: 350px;
+} */
+
+.blog1 {
+  grid-area: blog1;
+}
+
+.img1 {
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/rim.jpg);
+  grid-area: img1;
+}
