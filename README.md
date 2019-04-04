@@ -128,6 +128,9 @@ Tools:
 - Incorporated parallax layout
 
 2019-04-04:
+- Created the register.js with code
+- Styled Navbar
+- Edited sections
 
 ## Contributors
 
