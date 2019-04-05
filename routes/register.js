@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var posts = required('../db.json');
+var posts = required('../db.json').users;
 var request = require('request');
 
 // Getting the registry page
