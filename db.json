@@ -2,8 +2,30 @@
   "posts": [
     {
       "id": 1,
-      "name": "CARgkgbkh",
-      "author": "typicode"
+      "title": "V8-Pure Muscle",
+      "image": "sdf",
+      "date": "sdf",
+      "description": "sdf",
+      "author": "sdf",
+      "parallax": "sdf"
+    },
+    {
+      "id": 1,
+      "title": "CARbkh",
+      "image": "sdf",
+      "date": "sdf",
+      "description": "dsf",
+      "author": "sdf",
+      "parallax": "adf"
+    },
+    {
+      "id": 1,
+      "title": "CARgkgbkh",
+      "image": "sadf",
+      "date": "asdf",
+      "description": "adsf",
+      "author": "asdf",
+      "parallax": "adsf"
     }
   ],
 
