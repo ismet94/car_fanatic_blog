@@ -3,14 +3,14 @@
     {
       "id": 1,
       "title": "V8-Pure Muscle",
-      "image": "sdf",
+      "image": "image/",
       "date": "sdf",
       "description": "sdf",
       "author": "sdf",
       "parallax": "sdf"
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "CARbkh",
       "image": "sdf",
       "date": "sdf",
@@ -19,7 +19,7 @@
       "parallax": "adf"
     },
     {
-      "id": 1,
+      "id": 3,
       "title": "CARgkgbkh",
       "image": "sadf",
       "date": "asdf",
