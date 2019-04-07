@@ -7,3 +7,12 @@ function scrollFunction() {
       document.getElementById("header").style.fontSize = "90px";
     }
   } 
+
+  function myFunction() {
+    var x = document.getElementById("show1");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  } 
