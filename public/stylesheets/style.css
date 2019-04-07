@@ -40,9 +40,7 @@ h3 {
   background-color: #33333385 !important;
 }
 
-.logo {
 
-}
 
 .btn-outline-success{
   color: #ff4d4d !important;
@@ -334,30 +332,59 @@ grid-area: blog3;
 .footer {
   background-color: rgba(51, 46, 37, 0.966);
   padding: 17px;
-  height: 30rem;
+  height: 25rem;
 }
 
 .grid-footer {
     display: grid;
     width: 70%;
     line-height: 20px;
+    padding-top: 2%;
+    color: rgb(245, 237, 219);
     margin: auto;
 
     /* grid columns and rows size */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-gap: 30px;
 
     grid-template-areas: 
-            ""
+            "profile footerbloglinks footermisc footersocial"
 
 }
 
+.profile {
+  grid-area: profile;
+  line-height: 25px;
+}
 
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  background-image: url(../images/pro.jpg);
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.footer-blog-links {
+  grid-area: footerbloglinks;
+line-height: 50px;
+}
+
+.footer-misc {
+  grid-area: footermisc;
+  line-height: 50px;
+}
+
+.footer-social {
+  grid-area: footersocial;
+  line-height: 50px;
+}
 
 
 .copyright {
   background-color: rgba(238, 228, 211, 0.911);
+  text-align: center;
   padding: 17px;
-  height: 5rem;
+  height: 4rem;
 }
