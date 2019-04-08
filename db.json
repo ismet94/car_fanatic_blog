@@ -4,29 +4,39 @@
       "id": 1,
       "title": "V8-Pure Muscle",
       "image": "image/mn",
-      "date": "sdf",
-      "description": "sdf",
+      "date": "03 Feruary 2019",
+      "description": "Shaped and made in different sizes the V8 Pure Muscle has an unleashing amount of power. Built by Roderick Ferez the motor is set to put out over 1000 horsepower. Roderick mensions that not only him but his wife plays a big role in creating this master piece engines. She actually orders and handles all parts and shipping in order for the motor to be built. So far only 2 complete motors has been sold and the price doesn't come easy Roderick says that all components are made out of titanium so it can withstand high amounts of tempretures and strains, so check your wallet when purchasing this master piece.",
       "author": "sdf",
       "parallax": "sdf"
     },
     {
       "id": 2,
-      "title": "CARbkh",
+      "title": "Audi E-Tron 2019  ",
       "image": "sdf",
-      "date": "sdf",
+      "date": "17 April 2019",
       "description": "dsf",
       "author": "sdf",
       "parallax": "adf"
     },
     {
       "id": 3,
-      "title": "CARgkgbkh",
+      "title": "Intelligent Interior ",
       "image": "sadf",
-      "date": "asdf",
+      "date": "22 January 2019",
+      "description": "adsf",
+      "author": "asdf",
+      "parallax": "adsf"
+    },
+    {
+      "id": 4,
+      "title": "Hooniverse Asks",
+      "image": "sadf",
+      "date": "12 March 2019",
       "description": "adsf",
       "author": "asdf",
       "parallax": "adsf"
     }
+    
   ],
 
   "comments": [
@@ -38,7 +48,9 @@
   ],
   
   "profile": {
-    "name": "typicode"
+    "name": "Ismet",
+    "email": "izzismsdien@mail.com",
+    "password": "23123453"
   }
     
 }

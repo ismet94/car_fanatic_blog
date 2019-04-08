@@ -3,130 +3,80 @@
   <head>
     <title>Car Blog</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- Link for google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+    <!-- Link for bootstrap navbar -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="public/javascripts/functions.js">
   </head>
   <body>
+    <!-- Added hero Section -->
     <section class="hero">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Added Navbar with bootstrap includes responsiveness -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Car Blog</a>
+          <!-- Responsiveness button for burger menu -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="display:none">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
+            <!-- Navbar Items -->
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Archive</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Register</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Sign-in</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Register</button>
-            <button onclick="myFunction()" class="btn btn-outline-success my-2 my-sm-0" type="submit" >Sign-in</button>
-          </form>
         </div>
       </nav>
   
-      <div class="container register-form ">
-        <div class="form show1">
-            <div class="note">
-                <p>This is a simpleRegister Form made using Boostrap.</p>
-            </div>
-
-            <!-- <div class="form-content">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name *" value=""/>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Phone Number *" value=""/>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Password *" value=""/>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Confirm Password *" value=""/>
-                        </div>
-                    </div>
-                </div>
-                <button type="button" class="btnSubmit">Submit</button>
-                
-            </div> -->
-        </div>
-    </div>
-  
-  <main class="main-section">
+    <!-- Main heading and sub-heading -->
+    <main class="main-section">
       <h1 class="main-heading">Car Fanatic Blog</h1>
       <h2 class="main-sub-heading">
         The road to success is always under construction
       </h2>
-  </main>
-      
-      
+    </main>  
     </section>
     
-
+    <!-- Sections for each blog -->
     <section class="content" >
-    
+      <!-- Grid container1 -->
       <div class="container1" >
-         
-
-
-        
-      <div class="blog1-img" >
-        </div>
-
+        <!-- Blog 1 image -->
+        <div class="blog1-img" ></div>
+        <!-- Blog 1 heading -->
         <div class="blog1-head">
-            <h1>
-              V8-Pure Muscle
-           </h1>
+          <h1>
+            V8-Pure Muscle
+          </h1>
         </div>
-
-      <div class="blog1-para">
+        <!-- Blog 1 paragraph -->
+        <div class="blog1-para">
           <h3>
             03 Feruary 2019
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate aliquam velit deserunt at sed consectetur odit distinctio? Neque, laborum modi atque adipisci distinctio corrupti facilis amet maiores nulla eligendi.
-            Quisquam tempora pariatur reprehenderit dolor doloribus iusto! Placeat et perferendis distinctio. Nihil ut esse, autem veniam expedita temporibus optio nobis a omnis eius molestias? Voluptate esse est autem illo repellat.
-            Odio provident fugiat est labore, reiciendis, neque officia natus omnis ut optio pariatur. Soluta repudiandae quod, consequuntur autem tenetur in, obcaecati laborum reprehenderit, iste odio ea! Iste perspiciatis accusantium autem.
-            Saepe quaerat quo repudiandae pariatur voluptatibus modi quas animi reiciendis deserunt minima iure commodi veritatis doloremque ipsum expedita amet, ipsa magnam iste voluptatum! Dolorem voluptates aliquam rem obcaecati autem deserunt?
-
+            Shaped and made in different sizes the V8 Pure Muscle has an unleashing amount of power. Built by Roderick Ferez the motor is set to put out over 1000 horsepower. Roderick mensions that not only him but his wife plays a big role in creating this master piece engines. She actually orders and handles all parts and shipping in order for the motor to be built. 
+            So far only 2 complete motors has been sold and the price doesn't come easy Roderick says that all components are made out of titanium so it can withstand high amounts of tempretures and strains, so check your wallet when purchasing this master piece.
           </p>
+          <!-- Read more jumps to archive page -->
           <a href="#">Read More...</a>
         </div>
-      
       </div>
-     
     </section>
 
-
-
-
+    <!-- Parallax image between blog -->
     <div class="parallax2"></div>
 
 
@@ -166,7 +116,7 @@
 
 
 
-
+    <!-- Parallax image between blog -->
     <div class="parallax3"></div>
 
     <section class="content" >
