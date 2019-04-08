@@ -41,7 +41,6 @@ express --view=ejs
 npm install -g json-server --save
 touch posts.json
 npm install
-npm start
 
 ```
 - Install 
@@ -52,8 +51,18 @@ npm install bootstrap --save
 npm install nodemon --save
 
 ```
-- Watch db.json 
--
+- Watch app / Start App with eithr:
+```
+ npm start
+
+```
+or
+
+```
+ nodemon app.js
+
+```
+- Watch db.json with port (Database)
 ```
  json-server --watch db.json --port 3004
 
