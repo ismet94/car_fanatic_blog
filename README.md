@@ -1,7 +1,10 @@
 # car_fanatic_blog
 Car Enthusiast Blog
 
-Hyped by the engine that roars, energized by the wheels that spin, moved by the speed of the force. An all time blog website to surely get you off your seat and into the garage. 
+Hyped by the engine that roars, energized by the wheels that spin, moved by the speed of the force. An all time blog website to surely get you off your seat and into the garage. The blog is aimed at high performance vehicles to your everyday car gadgets. Focused on latest blogs and a constant updates of the best trends. 
+
+The website was aimed at vehicles reason being my passion for any mechanical and technological. I started off with a wirefram layout using a parallax effect to split each blog apart from each other. The color scheme had a cream, brown, white effect to it. By this I added gradients to most images to fit the theming. All images are photoshoped by compressing the size to adding effects and cropping. Next was pull the website dynamically, all information was stored in the db.json a database where data can be pulled from. 
+
 
 ## Setting up my workspace
 
@@ -140,6 +143,23 @@ Tools:
 - Created the register.js with code
 - Styled Navbar
 - Edited sections
+
+2019-04-05:
+- Created sign-out js file 
+- Created archive ejs
+- Edited navbar hover effects
+- Uploaded file to Openshift (Red Hat)
+
+2019-04-06:
+- Added regsiter ejs file
+- Completed footer with details
+- Edited app.js so that the ports run on both 3000 and 8080
+- Added code for each js file in routes
+
+2019-04-07:
+- Pulled page dynamically but kept getting an error
+- Glowing effect added to main heading and sub heading
+- Started on responsiveness
 
 ## Contributors
 

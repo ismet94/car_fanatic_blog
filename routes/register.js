@@ -38,7 +38,7 @@ router.post('/', function(req, res, next) {
     // If username is not available create new membership account
     if(usernameUsed != true){
         request({
-            url: 'http://localhost:8000/users',
+            url: 'http://localhost:3004/users',
             method: 'Posts',
             form: {
                 id: id,
